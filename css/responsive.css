@@ -1,0 +1,120 @@
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+    .page-block p {
+        width: 95%;
+        margin: 30px auto;
+        text-align: center;
+        line-height: 160%;
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        width: 100%;
+        font-size: 2.3em;
+        margin-top: 70px;
+    }
+    /**
+   *  Intro Page
+   */
+
+    .page-block h1 {
+        font-size: 4em;
+    }
+    .intro-slogan {
+        width: 400px;
+        margin: -50px 0 0 -200px;
+        text-align: center;
+    }
+    /**
+   *  Footer
+   */
+
+    .footer-content {
+        width: 100%;
+    }
+    .title-block {
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .colleen-block {
+        margin-top: 50px;
+    }
+    .colleen-img {
+        float: none;
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+    }
+    .title-block h3 {
+        text-align: center;
+    }
+    .title-block {
+        font-size: .7em;
+    }
+    .talk-to-me {
+        float: none;
+        margin-top: 0;
+    }
+    .colleen-img img {
+        max-width: 150px;
+    }
+    .envelope-container {
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    .talk-text {
+        margin-top: 5px;
+    }
+    .talk-to-me {
+        font-size: 1.65em;
+        width: 203px;
+        display: block;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}
+/**
+ *  Mobile Specific
+ */
+
+@media only screen and (min-width: 0px) and (max-width: 410px) {
+    .btn {
+        box-sizing: border-box;
+        font-size: 1.5em;
+    }
+    btn.contact-btn {
+        width: 90%;
+    }
+    .arrow-missile {
+        margin-top: 6px;
+    }
+    .page-block h1 {
+        font-size: 3.2em;
+    }
+    .intro-slogan {
+        width: 313px;
+        margin: -50px 0 0 -156.5px;
+        text-align: center;
+    }
+    /**
+   *  Contact Form
+   */
+
+    .modal-body {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 3000px) {
+    .talk-to-me {
+        display: block;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}

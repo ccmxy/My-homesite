@@ -1,0 +1,246 @@
+
+@font-face {
+font-family: "futuraBold";
+font-style: normal;
+font-weight: normal;
+src: url("fonts/futura-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/futura-bold-webfont.woff2") format("woff2"), url("fonts/futura-bold-webfont.woff") format("woff"), url("fonts/futura-bold-webfont.ttf") format("truetype"), url("fonts/futura-bold-webfont.svg#futura_md_btbold") format("svg");
+}
+
+.btn {
+    border-radius:3px;
+    font-family:"futuraBold";
+    color:#FFF;
+    font-size:1.875em;
+    padding:20px 30px 12px 30px;
+    text-transform:uppercase;
+    text-decoration:none;
+    border:none;
+    display:block;
+    -webkit-transition:.25s ease-in-out;
+    -moz-transition:.25s ease-in-out;
+    -ms-transition:.25s ease-in-out;
+    -o-transition:.25s ease-in-out;
+    transition:.25s ease-in-out;
+}
+
+.btn.contact-btn {
+    text-shadow:0 1px 0 #0F533C;
+    color:#EDF8FC;
+    background:#177D59;
+    width:321px;
+    margin: 0 auto;
+    overflow:hidden;
+    align-content: center;
+}
+
+.btn.contact-btn:hover {
+    background:#10563E;
+}
+.contact-btn-text span {
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    transition:.5s ease-in-out;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.active {
+    -webkit-animation: explorer .5s ease-in-out forwards;
+    -moz-animation: explorer .5s ease-in-out forwards;
+    -ms-animation: explorer .5s ease-in-out forwards;
+    animation: explorer .5s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.n {
+    -webkit-animation: explorer .5s ease-in-out forwards;
+    -moz-animation: explorer .5s ease-in-out forwards;
+    -ms-animation: explorer .5s ease-in-out forwards;
+    animation: explorer .5s ease-in-out ;
+    margin-left: 50%;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.e {
+    -webkit-animation: explorer .5s .035s ease-in-out forwards;
+    -moz-animation: explorer .5s .035s ease-in-out forwards;
+    -ms-animation: explorer .5s .035s ease-in-out forwards;
+    animation: explorer .5s .035s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.x {
+    -webkit-animation: explorer .5s .07s ease-in-out forwards;
+    -moz-animation: explorer .5s .07s ease-in-out forwards;
+    -ms-animation: explorer .5s .07s ease-in-out forwards;
+    animation: explorer .5s .07s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.t {
+    -webkit-animation: explorer .5s .105s ease-in-out forwards;
+    -moz-animation: explorer .5s .105s ease-in-out forwards;
+    -ms-animation: explorer .5s .105s ease-in-out forwards;
+    animation: explorer .5s .105s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.o {
+    -webkit-animation: explorer .5s .14s ease-in-out forwards;
+    -moz-animation: explorer .5s .14s ease-in-out forwards;
+    -ms-animation: explorer .5s .14s ease-in-out forwards;
+    animation: explorer .5s .14s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.r {
+    -webkit-animation: explorer .5s .175s ease-in-out forwards;
+    -moz-animation: explorer .5s .175s ease-in-out forwards;
+    -ms-animation: explorer .5s .175s ease-in-out forwards;
+    animation: explorer .5s .175s ease-in-out ;
+}
+.btn.contact-btn:hover .contact-btn-text span.y {
+    -webkit-animation: explorer .5s .210s ease-in-out forwards;
+    -moz-animation: explorer .5s .210s ease-in-out forwards;
+    -ms-animation: explorer .5s .210s ease-in-out forwards;
+    animation: explorer .5s .210s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.o2 {
+    -webkit-animation: explorer .5s .245s ease-in-out forwards;
+    -moz-animation: explorer .5s .245s ease-in-out forwards;
+    -ms-animation: explorer .5s .245s ease-in-out forwards;
+    animation: explorer .5s .245s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.u {
+    -webkit-animation: explorer .5s .28s ease-in-out forwards;
+    -moz-animation: explorer .5s .28s ease-in-out forwards;
+    -ms-animation: explorer .5s .28s ease-in-out forwards;
+    animation: explorer .5s .28s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.r2 {
+    -webkit-animation: explorer .5s .315s ease-in-out forwards;
+    -moz-animation: explorer .5s .315s ease-in-out forwards;
+    -ms-animation: explorer .5s .315s ease-in-out forwards;
+    animation: explorer .5s .315s ease-in-out ;
+}
+.btn.contact-btn:hover .contact-btn-text span.s2 {
+    -webkit-animation: explorer .5s .35s ease-in-out forwards;
+    -moz-animation: explorer .5s .35s ease-in-out forwards;
+    -ms-animation: explorer .5s .35s ease-in-out forwards;
+    animation: explorer .5s .35s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.e3 {
+    -webkit-animation: explorer .5s .385s ease-in-out forwards;
+    -moz-animation: explorer .5s .385s ease-in-out forwards;
+    -ms-animation: explorer .5s .385s ease-in-out forwards;
+    animation: explorer .5s .385s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.l {
+    -webkit-animation: explorer .5s .420s ease-in-out forwards;
+    -moz-animation: explorer .5s .420s ease-in-out forwards;
+    -ms-animation: explorer .5s .420s ease-in-out forwards;
+    animation: explorer .5s .420s ease-in-out ;
+}
+
+.btn.contact-btn:hover .contact-btn-text span.f2 {
+    -webkit-animation: explorer .5s .455s ease-in-out forwards;
+    -moz-animation: explorer .5s .455s ease-in-out forwards;
+    -ms-animation: explorer .5s .455s ease-in-out forwards;
+    animation: explorer .5s .455s ease-in-out ;
+}
+
+@-webkit-keyframes explorer {
+    0% { -webkit-transform:translate3d(0,0, 0); }
+    50% { -webkit-transform:translate3d(0,-15px, 0); }
+    100% { -webkit-transform:translate3d(0,0, 0); }
+}
+
+@-moz-keyframes explorer {
+    0% { -moz-transform:translate3d(0,0, 0); }
+    50% { -moz-transform:translate3d(0,-15px, 0); }
+    100% { -moz-transform:translate3d(0,0, 0); }
+}
+
+@-ms-keyframes explorer {
+    0% { -ms-transform:translate3d(0,0, 0); }
+    50% { -ms-transform:translate3d(0,-15px, 0); }
+    100% { -ms-transform:translate3d(0,0, 0); }
+}
+
+@keyframes explorer {
+    0% { transform:translate3d(0,0, 0); }
+    50% { transform:translate3d(0,-15px, 0); }
+    100% { transform:translate3d(0,0, 0); }
+}
+
+.contact-btn-text span {
+    position:relative;
+    display:block;
+    float:left;
+}
+
+.contact-btn-text span.space {
+    margin-left:10px;
+}
+
+.btn.contact-btn:hover .arrow-missile {
+    -webkit-animation: missilePulse .6s .6s ease-in-out infinite alternate;
+    -moz-animation: missilePulse .6s .6s ease-in-out infinite alternate;
+    -ms-animation: missilePulse .6s .6s ease-in-out infinite alternate;
+    animation: missilePulse .6s .6s ease-in-out infinite alternate;
+}
+
+
+.projectile-block {
+    width:15px;
+    border-radius:3px;
+    height:22px;
+    position:relative;
+    float:right;
+    margin-top:7px;
+}
+
+
+.arrow-missile {
+    position:absolute;
+    margin-top:9px;
+    height:4px;
+    background:#FFF;
+    width:15px;
+    left:0px;
+    -webkit-transition:.4s ease-in-out;
+    -moz-transition:.4s ease-in-out;
+    -ms-transition:.4s ease-in-out;
+    -o-transition:.4s ease-in-out;
+    transition:.4s ease-in-out;
+}
+
+
+
+.arrow-missile:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: #fff;
+    border-width: 7px;
+    margin-top: -7px;
+}
+
+@-webkit-keyframes missilePulse {
+    from { -webkit-transform:translate3d(0, 0, 0); }
+    to { -webkit-transform:translate3d(6px, 0, 0); }
+}
+
+@-moz-keyframes missilePulse {
+    from { -moz-transform:translate3d(0, 0, 0); }
+    to { -moz-transform:translate3d(6px, 0, 0); }
+}
+
+@keyframes missilePulse {
+    from { transform:translate3d(0, 0, 0); }
+    to { transform:translate3d(6px, 0, 0); }
+}

@@ -1,0 +1,93 @@
+
+/** ==============================================================================
+*  side popper
+* ============================================================================== */
+
+.side-popper.active {
+  -webkit-animation:popIn 6s 0.25s ease-in backwards;
+  -moz-animation:popIn 6s 0.25s ease-in backwards;
+  -ms-animation:popIn 6s 0.25s ease-in backwards;
+  -o-animation:popIn 6s 0.25s ease-in backwards;
+  animation:popIn 6s 0.25s ease-in backwards;
+}
+
+.side-popper svg{
+  position: absolute;
+  z-index:100;
+  left: -259px;
+  top: 300px;
+  transform: rotate(90deg);
+}
+
+
+@-webkit-keyframes popIn {
+  50% { -webkit-transform:translate(120px, 0px);opacity:1; }
+  94% { -webkit-transform:translate(140px, 0px);opacity:1; }
+  95% { -webkit-transform:translate(259px, 0px);opacity:1; }
+  97% { -webkit-transform:translate(259px, 0px);opacity:1; }
+}
+
+@-moz-keyframes popIn {
+  50% { -moz-transform:translate(120px, 0px);opacity:1; }
+  94% { -moz-transform:translate(140px, 0px);opacity:1; }
+  95% { -moz-transform:translate(259px, 0px);opacity:1; }
+  97% { -moz-transform:translate(259px, 0px);opacity:1; }
+}
+
+@-ms-keyframes popIn {
+  50% { -ms-transform:translate(120px, 0px);opacity:1; }
+  94% { -ms-transform:translate(140px, 0px);opacity:1; }
+  95% { -ms-transform:translate(259px, 0px);opacity:1; }
+  97% { -ms-transform:translate(259px, 0px);opacity:1; }
+}
+
+@keyframes popIn {
+    50% { transform:translate(120px, 0px);opacity:1; }
+    94% { transform:translate(140px, 0px);opacity:1; }
+    95% { transform:translate(259px, 0px);opacity:1; }
+    97% { transform:translate(259px, 0px);opacity:1; }
+}
+
+/** ==============================================================================
+*  top popper
+* ============================================================================== */
+.top-popper.active {
+  -webkit-animation:popDown 2s 0.25s ease-in backwards;
+  -moz-animation:popDown 2s 0.25s ease-in backwards;
+  -ms-animation:popDown 2s 0.25s ease-in backwards;
+  -o-animation:popDown 2s 0.25s ease-in backwards;
+  animation:popDown 2s 0.25s ease-out backwards;
+}
+
+.top-popper svg{
+  position: absolute;
+  z-index:100;
+  top: -259px;
+  left: 50%;
+  transform: rotate(180deg);
+  transform-origin: 50% 50% 0;
+}
+
+
+@-webkit-keyframes popDown {
+  10% { -moz-transform:translate(0px, 120px);opacity:1; }
+  80% { -moz-transform:translate(0px, 120px);opacity:1; }
+  100% { -moz-transform:translate(0px, 25px);opacity:1; }
+}
+@-moz-keyframes popDown {
+  10% { -moz-transform:translate(0px, 120px);opacity:1; }
+  80% { -moz-transform:translate(0px, 120px);opacity:1; }
+  100% { -moz-transform:translate(0px, 25px);opacity:1; }
+}
+
+@-ms-keyframes popDown {
+  10% { -ms-transform:translate(0px, 120px);opacity:1; }
+  80% { -ms-transform:translate(0px, 120px);opacity:1; }
+  100% { -ms-transform:translate(0px, 25px);opacity:1; }
+}
+
+@keyframes popDown {
+    10% { transform:translate(0px, 120px);opacity:1; }
+    80% { transform:translate(0px, 120px);opacity:1; }
+    100% { transform:translate(0px, 25px);opacity:1; }
+}
