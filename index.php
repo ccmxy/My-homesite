@@ -22,7 +22,7 @@
         <?php include 'sections/browser-compat.php' ?>
       </div>
       <?php
-          // include 'sections/section1.php';
+          include 'sections/section1.php';
           include 'sections/main-section.php';
           include 'sections/footer.php';
           include 'sections/open-envelope.php';
