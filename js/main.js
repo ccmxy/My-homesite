@@ -47,7 +47,7 @@ function Site(config) {
       handler: function() {
           _animateTitle('main-section');
       },
-      // offset: '70%'
+      offset: '70%'
     });
 
 
@@ -63,6 +63,7 @@ function Site(config) {
                  }, (500*index));
                });
       }, //end handler
+      offset: '65%'
     });
 
     //Animate side-popper
