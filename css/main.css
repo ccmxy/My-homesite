@@ -163,16 +163,6 @@ p .opening-paragraph, h3 .opening-title{
     opacity:1;
 }
 
-.page-block.main-section p {
-    color:#E5F9F1;
-}
-
-
-.page-block.main-section {
-    background:#21B17E;
-    padding-bottom:50px;
-}
-
 
 .page-block h1 {
     font-size:7.813em;
@@ -261,11 +251,6 @@ h3 {
     text-transform:uppercase;
 }
 
-
-.main-section h3 {
-    color:#F3FDF8;
-    text-shadow: 0 1px 0 #167655;
-}
 
 
 /**

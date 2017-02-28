@@ -1,0 +1,15 @@
+.page-block.section-3 p {
+    color:#E5F9F1;
+}
+
+
+.page-block.section-3 {
+    /*background:#21B17E;*/
+    background:#34495e;
+    padding-bottom:50px;
+}
+
+.section-3 h3 {
+    color:#F3FDF8;
+    text-shadow: 0 1px 0 #167655;
+}

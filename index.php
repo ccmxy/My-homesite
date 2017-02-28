@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/contact-btn.css">
         <link rel="stylesheet" href="css/sneaky-me.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/main-section.css">
+        <link rel="stylesheet" href="css/section-3.css">
 
         <link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome.min.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -26,6 +28,8 @@
       <?php
           include 'sections/section1.php';
           include 'sections/main-section.php';
+          include 'sections/section3.php';
+
           include 'sections/footer.php';
           include 'sections/open-envelope.php';
        ?>

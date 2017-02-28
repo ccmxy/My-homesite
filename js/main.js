@@ -39,6 +39,7 @@ function Site(config) {
 
               });
         },
+        offset: '65%'
       });
 
     // Animate Title
@@ -82,6 +83,64 @@ function Site(config) {
 
   }
 
+
+  function _animateSection3() {
+    //Animate pop-down from top of section
+    new Waypoint({
+      element: document.getElementById('section-3'),
+      handler: function() {
+          var me = document.querySelectorAll('.top-popper');
+                 Array.prototype.forEach.call(me, function(el, index) {
+                   setTimeout(function() {
+                     $(el).addClass('active');
+                   }, (10));
+
+              });
+        },
+        offset: '65%'
+      });
+
+    // Animate Title
+    new Waypoint({
+      element: document.getElementById('section-3'),
+      handler: function() {
+          _animateTitle('section-3');
+      },
+      offset: '70%'
+    });
+
+
+    // Animate Body
+    new Waypoint({
+      element: document.getElementById('section-3'),
+      handler: function(direction) {
+        _animateBody('section-3');
+        var meIcons = document.querySelectorAll('.colleen .split-circle');
+               Array.prototype.forEach.call(meIcons, function(el, index) {
+                 setTimeout(function() {
+                   $(el).addClass('active');
+                 }, (500*index));
+               });
+      }, //end handler
+      offset: '65%'
+    });
+
+    //Animate side-popper
+    new Waypoint({
+      element: document.getElementById('section-3'),
+      handler: function() {
+        var me = document.querySelectorAll('.side-popper');
+               Array.prototype.forEach.call(me, function(el, index) {
+                 setTimeout(function() {
+                   $(el).addClass('active');
+                 }, (1000));
+
+            });
+        },
+      });
+
+  }
+
   /**
    *  Animate the title and body in for each section
    */
@@ -109,6 +168,7 @@ function Site(config) {
    _attachEventHandlers();
     _renderPage();
     _animateMainSection();
+    _animateSection3();
   }
 }
 
