@@ -4,7 +4,7 @@
       <h1>
         Lorem ipsum
       </h1>
-      <h2 class="active">Lorem Ipsum dolor sit amet, consectetur.</h2>
+      <h2 class="active">Loremmmm Ipsum dolor sit amet, consectetur.</h2>
     </div>
     <button id="arrow-pulser" class="scroll-block active">
       <!-- <span class="scroll-text">continue</span> -->

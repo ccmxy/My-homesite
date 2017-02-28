@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/contact-btn.css">
         <link rel="stylesheet" href="css/sneaky-me.css">
+        <link rel="stylesheet" href="css/footer.css">
+
         <link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome.min.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/modernizr-2.js"></script>

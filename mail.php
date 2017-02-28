@@ -13,8 +13,12 @@ if (isset($_POST['message']) && isset($_POST['email'])) {
     // use wordwrap() if lines are longer than 70 characters
     $msg = wordwrap($msg, 70);
 
-    $mgClient = new Mailgun(<MAILGUN KEY>); 
-    $domain   = <DOMAIN>;
+    // $mgClient = new Mailgun(<MAILGUN KEY>);
+    // $domain   = <DOMAIN>;
+
+    $mgClient = new Mailgun('key-34456aa50263b740acbc9598e6c82102'); //EATING ORANGES
+    $domain   = "eatingoranges.com";
+
 
     $result = $mgClient->sendMessage("$domain", array(
         'from' => 'Colleen <postmaster@eatingoranges.com>',
