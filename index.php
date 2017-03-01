@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/main-section.css">
         <link rel="stylesheet" href="css/section-3.css">
+        <link rel="stylesheet" href="css/animations.css">
 
         <link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome.min.css">
         <link rel="stylesheet" href="css/responsive.css">
