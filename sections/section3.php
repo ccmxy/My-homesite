@@ -9,7 +9,14 @@
       </svg>
     </i>
     <i>
-      n^2
+
+      <!-- <svg height="30" width="200"> -->
+      <svg height="70" width="200">
+
+    <text x="0" y="15" fill="red" font-size="36" font-family="futuraBold">n^2</text>
+  </svg>
+
+
     </i>
     <i></i>
     <i></i>

@@ -122,7 +122,8 @@ body {background: #222;}
     100% {
         -webkit-transform:
             translate3d(-350px,700px,0)
-            rotate(90deg);
+            /*rotate(90deg)*/
+            rotateX(90deg) rotateY(90deg);
         opacity: 0;
     }
 }
